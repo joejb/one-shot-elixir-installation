@@ -20,7 +20,13 @@
   # install elixir
   apt-get install -y elixir
   
-  # get inotify-tools
+  # install erlang for debian
+  apt-get install -y erlang
+  
+  # install packages to avoid possible errors
+  apt-get install -y erlang-base-hipe erlang-dev erlang-eunit erlang-parsetools
+  
+  # install inotify-tools
   apt-get install -y inotify-tools
 
 SCRIPT
