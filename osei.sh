@@ -30,6 +30,6 @@
   apt-get install -y inotify-tools
 
   # install hex package manager
-  mix local.hex
+  mix local.hex -y
 SCRIPT
 }
