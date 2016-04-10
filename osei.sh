@@ -29,5 +29,7 @@
   # install inotify-tools
   apt-get install -y inotify-tools
 
+  # install hex package manager
+  mix local.hex
 SCRIPT
 }
